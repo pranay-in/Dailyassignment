@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+ <form action="NewServlet" method="get">
+FirstName:<input type="text" name="fname">
+LastName:<input type="text" name="lname">
+Address:<input type="text" name="address">
+Phone:<input type="text" name="phone">
+City:<input type="text" name="city">
+State:<input type="text" name="state">
+country:<input type="text" name="country"drop down>
+<input type="Submit" value="submit">
+</form>
+</body>
+</html>
